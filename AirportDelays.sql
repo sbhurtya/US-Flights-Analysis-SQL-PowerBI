@@ -106,7 +106,6 @@ limit
 
 /*markdown
 #### Top 5 arilnes with least flights
-
 */
 
 select
@@ -254,6 +253,7 @@ union
         Percentage_of_Flights_Cancelled asc
     limit 1
     );
+
 
 
 /*markdown
@@ -546,6 +546,7 @@ union
     );
 
 
+
 /*markdown
 #### Average number of flights, Percentage of flights delayed, average delay time, percentage of flights cancelled by day of week
 */
@@ -657,6 +658,7 @@ union
     );       
 
 
+
 /*markdown
 # Delay and Cancellation Reasons Breakdown
 */
@@ -702,6 +704,7 @@ union
 order by
     Percentage_of_Flights_Delayed desc
 ;
+
 
 
 /*markdown
