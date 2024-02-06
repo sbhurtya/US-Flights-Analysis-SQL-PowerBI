@@ -256,6 +256,7 @@ union
 
 
 
+
 /*markdown
 # Airports
 */
@@ -547,6 +548,7 @@ union
 
 
 
+
 /*markdown
 #### Average number of flights, Percentage of flights delayed, average delay time, percentage of flights cancelled by day of week
 */
@@ -565,7 +567,7 @@ order by
     Percentage_of_Flights_Delayed desc; 
 
 /*markdown
-#### Month and Day Summary
+#### Day of the Week Summary
 */
 
 #Summary statistics of days of week
@@ -659,6 +661,7 @@ union
 
 
 
+
 /*markdown
 # Delay and Cancellation Reasons Breakdown
 */
@@ -704,6 +707,7 @@ union
 order by
     Percentage_of_Flights_Delayed desc
 ;
+
 
 
 
@@ -778,3 +782,9 @@ group by
 order by
     Percentage_of_Flights_Cancelled desc;
 
+
+
+
+/*markdown
+
+*/
