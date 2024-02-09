@@ -1,7 +1,7 @@
-# Airport Delays Analysis
+# US Flights Analysis 2015
 
 ## Overview
-This repository contains a SQL script for analyzing airport delays.The goal of this project is to provide insights into flight delays at various airports, identifying patterns and trends. The data used in this project is from the US Department of Transportation and contains information on all flights in the US in 2015.
+The goal of this project is to provide insights into flight delays at various airports, identifying patterns and trends. The data used in this project is from the US Department of Transportation and contains information on all flights in the US in 2015.
 
 ## Features
 The SQL script contains the following features:
